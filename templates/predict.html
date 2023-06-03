@@ -1,0 +1,6 @@
+<h2>Predict Animal</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="image" accept="image/*">
+    <button type="submit">Predict</button>
+</form>
